@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hangman Game</title>
+	   <!-- links -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<meta name="viewport" content="width=device-width, initial-scale=1">   
+
+</head>
+<body>
+
+	<!-- divs for game & css alignment -->
+<div class="panel panel-default" style="max-width:400px; margin-left:auto; margin-right:auto; margin-top:100px;">
+  <div class="panel-body text-center">
+
+
+    <h1>Hangman</h1>
+      <div class="panel-body text-left">
+
+<Container=left justified>
+	<!-- guesses remaining display and tag id -->
+	<p>Guesses remaining: <span id="guesses-left"></span></p>
+		<!-- Wrong remaining and tag id -->
+	<p>Incorrect Letters: <span id="wrong-guesses"></span></p>
+		<!-- player winds and tag id -->
+	<p>Player Wins: <span id="win-counter"></span></p>
+			<!-- player losses and tag id -->
+	<p>Player Losses: <span id="loss-counter"></span></p>
+			<!-- h3 word-blank tag id -->
+	<h3 id="word-blank"></h3>
+
+		<!-- <div id = hp><p>Hangman picture will need to go here. photos in assets to be referenced with each stage of the game loss process</p></div> -->
+		
+
+	
+	<!--js link  -->
+<script src="./assets/javascript/game.js"></script>
+
+  </div>
+</div>
+
+</body>
+</html>
